@@ -1,0 +1,122 @@
+{
+  "1": {
+    "cron1": {
+      "interval": 600,
+      "max_runs": 0,
+      "command": "/warp ryanxx0711_2,/warp ryanxx0711"
+    },
+    "cron2": {
+      "interval": 600,
+      "max_runs": 0,
+      "command": "$warp ryanxx0711_2 全新苦力怕農場-販售各類火藥相關製品-另外有販售盒裝紙,$warp ryanxx0711 有商店區跟抽獎機-抽獎機大獎2億-商店區目前已經開放收購商品-每日簽到10萬"
+    },
+    "transport": {
+      "interval": 0,
+      "max_runs": 0,
+      "source_command": "",
+      "destination_command": "",
+      "source_box": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "source_box_configured": false,
+      "destination_box": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "destination_box_configured": false
+    }
+  },
+  "2": {
+    "cron1": {
+      "interval": 600,
+      "max_runs": 0,
+      "command": "/warp ryanxx0711_2,/warp ryanxx0711"
+    },
+    "cron2": {
+      "interval": 0,
+      "max_runs": 0,
+      "command": ""
+    },
+    "transport": {
+      "interval": 0,
+      "max_runs": 0,
+      "source_command": "/warp ryanxx0711_3",
+      "destination_command": "",
+      "source_box": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "source_box_configured": false,
+      "destination_box": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "destination_box_configured": false
+    }
+  },
+  "3": {
+    "cron1": {
+      "interval": 600,
+      "max_runs": 0,
+      "command": "/warp ryanxx0711,/warp ryanxx0711_2"
+    },
+    "cron2": {
+      "interval": 3,
+      "max_runs": 0,
+      "command": "/warp ryanxx0711_2"
+    },
+    "transport": {
+      "interval": 10,
+      "max_runs": 0,
+      "source_command": "/warp ryanxx0711_3",
+      "destination_command": "/warp ryanxx0711_2",
+      "source_box": {
+        "x": 3827,
+        "y": 36,
+        "z": 519
+      },
+      "source_box_configured": true,
+      "destination_box": {
+        "x": -1222,
+        "y": 123,
+        "z": -6173
+      },
+      "destination_box_configured": true
+    }
+  },
+  "4": {
+    "cron1": {
+      "interval": 600,
+      "max_runs": 0,
+      "command": "/warp ryanxx0711,/warp ryanxx0711_2"
+    },
+    "cron2": {
+      "interval": 6,
+      "max_runs": 0,
+      "command": "/warp ryanxx0711_2"
+    },
+    "transport": {
+      "interval": 0,
+      "max_runs": 0,
+      "source_command": "",
+      "destination_command": "",
+      "source_box": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "source_box_configured": false,
+      "destination_box": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "destination_box_configured": false
+    }
+  }
+}

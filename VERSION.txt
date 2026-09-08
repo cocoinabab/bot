@@ -1,0 +1,15 @@
+BedrockTrafficWatch v7 ULTIMATE
+Build package: Windows x64 source/self-build launcher
+Protocol library target: gophertunnel v1.59.0
+Capture layers:
+- decoded packet summary
+- recursive decoded packet JSONL.gz
+- raw MCPE header+payload JSONL.gz (Login body redacted)
+- action/event index JSONL.gz
+- decoded/raw cross-link index JSONL.gz
+- pre-divert raw-IP PCAP
+- post-divert raw-IP PCAP
+- RakNet index JSONL.gz
+
+Launcher: START_V7_ULTIMATE.cmd
+Pack latest capture: PACK_LATEST.cmd

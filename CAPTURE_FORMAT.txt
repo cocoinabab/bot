@@ -1,0 +1,24 @@
+Capture files written under .\logs\ with a shared timestamp:
+  decoded-TIMESTAMP.log
+  full-TIMESTAMP.jsonl.gz
+  raw-mcpe-TIMESTAMP.jsonl.gz
+  events-TIMESTAMP.jsonl.gz
+  links-TIMESTAMP.jsonl.gz
+  wire-index-TIMESTAMP.jsonl.gz
+  wire-pre-TIMESTAMP.pcap
+  wire-post-TIMESTAMP.pcap
+
+full JSON fields:
+  seq,time,direction,packet_id,type,ingress_raw_seq,data
+
+raw-mcpe JSON fields:
+  seq,time,leg,logical_direction,phase,packet_id,sender_sub_client,
+  target_sub_client,src,dst,payload_len,full_packet_len,payload_hex,
+  full_packet_hex,sensitive_redacted,sha256
+
+links JSON fields:
+  time,full_seq,direction,packet_id,egress_raw_seq
+
+wire-index JSON fields:
+  seq,time,phase,direction,if_idx,sub_if_idx,packet_len,src,dst,
+  udp_payload_len,raknet,parse_error
